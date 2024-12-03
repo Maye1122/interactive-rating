@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+	display: flex;
+	font-family: "Overpass", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: black;
+	color: antiquewhite;
+}
+
+.grandiv,
+.div-end {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2%;
+	width: 359px;
+	height: 374px;
+	border-radius: 3%;
+	background-color: hsl(216, 12%, 8%);
+	display: block;
+	border: 2%;
+	margin-bottom: 0.5em;
+
+}
+
+.div-end__image {
+	max-width: 100%;
+}
+
+
+
+button.sumit {
+	background-color: hsl(25, 97%, 53%);
+	border: none;
+	color: hsl(0, 0%, 100%);
+	font-weight: bold;
+	margin-top: 2rem;
+	position: center;
+	height: 3em;
+	width: 100%;
+	border-radius: 10%;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
+	-ms-border-radius: 10%;
+	-o-border-radius: 10%;
+	transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.sumit:hover {
+	color: hsl(216, 12%, 54%);
+	background-color: hsl(0, 0%, 100%);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons .rating-state {
+	height: 3em;
+	width: 3em;
+	display: inline-flex;
+	padding: 1rem;
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(217, 12%, 63%);
+	border: none;
+	margin-right: 0.5rem;
+	flex-direction: row;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	cursor: pointer;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.buttons .rating-state:hover {
+	background-color: hsl(0, 0%, 100%);
+
+}
+
+.rating-state.button.active {
+	background-color: hsl(0, 0%, 100%);
+
+}
+
+.grandiv .buttons {
+	margin-left: 3rem;
+}
+
+.div-end img {
+	align-items: center;
+}
